@@ -1,0 +1,38 @@
+h1{
+    color: red;
+}
+body{
+    background: url(top-section-bg.jpeg), fixed;
+    background-size: cover;
+}
+p{
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    color: yellow;
+    font-size: 22px;
+    /* border: 2px solid yellow; */
+    width: 700px;
+}
+div{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    background: url(love.gif);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position: center;
+}
+div > img{
+    width: 300px;
+    border-radius: 20%;
+}
+/* img{
+    --animate__infinite
+} */
+audio{
+    width: 400px;
+    margin: auto;
+    /* border: 2px solid yellow; */
+}
